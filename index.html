@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lemon</title>
+        <link rel="stylesheet" href="css/iconsfont.css"><!--подключаем иконочный шрифт до основного css-->
+        <link rel="stylesheet" href="css/style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="big_logo _container">
+                <div class="big_logo-image">
+                    <img src="img/big_logo.png" alt="Lemon-logo" class="image-logo _ibg">
+                </div>
+            </div>
+            <header class="header">
+                <div class="header_container _container">
+                        <img src="img/litle_logo.png" alt="" class="header_logo">
+                        <div class="header_menu menu">
+                            <a class="menu_icon">
+                                <span class="menu_icon-lines"></span>
+                            </a>
+                            <nav class="menu_body">
+                                <ul class="menu_list">
+                                    <li class="menu_item">
+                                        <a href="" class="menu_link">HOME</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="" class="menu_link">Recipes</a>
+                                        <span class="menu_arrow"></span>
+                                        <ul class="menu_sub-list">
+                                            <li><a href="" class="menu_sub-link">RECOMMENDED</a></li>
+                                            <li><a href="" class="menu_sub-link">POPULAR</a></li>
+                                            <li><a href="" class="menu_sub-link">QUICK & EASY</a></li>
+                                            <li><a href="" class="menu_sub-link">HEALTHY</a></li>
+                                            <li><a href="" class="menu_sub-link">NEWEST</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_item"><a href="" class="menu_link">Photo Galleries</a></li>
+                                    <li class="menu_item"><a href="" class="menu_link">Videos</a></li>
+                                    <li class="menu_item"><a href="" class="menu_link">All Categories</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <form class="header_search search">
+                            <button class="search-button"><i class="fa fa-search"></i></button>
+                            <input class="search-form" type="search" placeholder="Find a recipe">
+                        </form>
+                </div>
+            </header>
+            <main class="page">
+                <section class="page_main-block main-block">
+                    <div class="main-block_container _container">
+                        <div class="main-block_body">
+                            <div class="main-block_logo"><img src="img/bananas/lemon_logo.png" alt="" class="main-block_img"></div>
+                            <h2 class="main-block_title">Bananas Foster Ice Cream Cake</h2>
+                            <div class="main-block_text">If you're looking for decadence, look no further — you've found the Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream cake.</div>
+                            <div class="main-block_button">
+                                <form action="#">
+                                    <button class="main-block_button-get _button">GET IT RECIPE</button>
+                                </form>
+                            </div>
+                        </div>
+                        <picture class="main-block_background _ibg">
+                            <source srcset="img/bananas/background_mini.jpg" media="(max-width: 420px)"> 
+                            <img src="img/bananas/bananas_background.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="main-block_hidden-button">
+                        <a href="#">Get it recipe</a>
+                    </div>
+                </section>
+                <section class="page_recipes recipes">
+                    <div class="recipes_container _container">
+                        <div class="recipes_body">
+                            <div class="recipes_column">
+                                <div class="recipes_picture"><img src="img/recipes/01.jpg" alt=""></div>
+                                <h3 class="recipes_title">Raspberry & Cream Frozen Yogurt Pie</h3>
+                                <div class="recipes_info"><i class="far fa-clock"></i> 35mins | <i class="far fa-comment"></i> 7 <i class="far fa-eye"></i> 14</div>
+                            </div>
+                            <div class="recipes_column">
+                                <div class="recipes_picture"><img src="img/recipes/20.jpg" alt=""></div>
+                                <h3 class="recipes_title">Giant Ice Cream Sandwich</h3>
+                                <div class="recipes_info"><i class="far fa-clock"></i> 20mins | <i class="far fa-comment"></i> 4 <i class="far fa-eye"></i> 356</div>
+                            </div>
+                            <div class="recipes_column">
+                                <div class="recipes_picture"><img src="img/recipes/03.jpg" alt=""></div>
+                                <h3 class="recipes_title">Dark Chocolate Crunch Ice Cream <br>
+                                    Sandwich Cake</h3>
+                                <div class="recipes_info"><i class="far fa-clock"></i> 15mins | <i class="far fa-comment"></i> 4 <i class="far fa-eye"></i> 167</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page_cake cake">
+                    <div class="cake_container _container">
+                        <div class="cake_background _ibg">
+                            <img src="img/bananas/banana_2.jpg" alt="">
+                        </div>
+                        <div class="cake_body">
+                            <h2 class="cake_title">Bananas Foster Ice Cream Cake</h2>
+                                <div class="cake_save">
+                                    <div class="cake_difficult">
+                                        <i class="far fa-clock"></i> <i>15mins</i> <i class="fa fa-signal"></i> <i>Easy</i>
+                                    </div>
+                                    <div class="cake_button">
+                                        <form action="#">
+                                        <button class="cake_button-get _button">SAVE RECIPE</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            <div class="cake_text text">
+                                <div class="text_ingridients">1 (8 ounce) container frozen whipped topping, thawed
+                                    20 chocolate round wafers, divided
+                                    1 (7 1/4 ounce) bottle Smucker's® Hot Dark Chocolate Microwaveable Topping, divided
+                                    </div>
+                                <div class="text_subtitle"><a href="#" class="fab fa-facebook-f"></a>Directions</div>
+                                <div class="text_recipe">ARRANGE 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to form an even layer. Spread with half of whipped topping. Break or crush chocolate wafers and sprinkle over the whipped cream. Microwave 1 cup of chocolate topping into small microwave-safe bowl on HIGH for 30 seconds. Drizzle evenly over wafers. <br>
+                                    TOP with remaining 8 to 9 ice cream sandwiches to form an even layer. Spread with remaining whipped topping. Freeze 3 hours or overnight. Remove from freezer 10 minutes before serving. Cut into squares.
+                                    HEAT remaining topping. Drizzle each serving with topping. Sprinkle with decorator sprinkles.
+                                    Nutritional information (amount per servings): Total Calories: 640. Sodium 440mg. Fat: 32g. Carbohydrates: 82g. Cholesterol: 40mg. Protein: 11g. Fiber: 1g.</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page_letter letter">
+                    <div class="letter_container _container">
+                        <div class="letter_column column-error">
+                            <div class="letter_background-error _ibg">
+                                <img src="img/letter/error.png" alt="">
+                            </div>
+                            <div class="letter_body error">
+                                <h2 class="letter_title">404</h2>
+                                    <div class="error_about about">
+                                        <h2 class="error_title">Sorry</h2>
+                                        <div class="error_message">WE COULDN’T FIND THE PAGE</div>
+                                        <div class="error_sign">:<i>(</i></div>
+                                    </div> 
+                                <form action="#" class="error_form ">
+                                    <button class="error_button _button">BACK</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="letter_column column-author">
+                            <div class="letter_body author">
+                                <h2 class="letter_title">Author</h2>
+                                <div class="author_card">
+                                    <div class="author_foto"><img src="img/letter/foto.jpg" alt="Karen Gray"></div>
+                                    <div class="author_text">
+                                        <div class="author_name">Karen Gray</div>
+                                        <div class="author_country">United States</div>
+                                        <div class="author_social">
+                                            <a href="#" class="fab fa-google-plus-g"> </a>
+                                            <a href="#" class="fab fa-twitter"></a>
+                                            <a href="#" class="fab fa-facebook-f"></a>
+                                            <a href="#" class="fab fa-pinterest"></a>
+                                        </div>
+                                        <div class="author_title">About Lemon</div>
+                                        <div class="author_letter">Over the fifteen-year life span of Food.com, we’ve learned that – in addition to eating – sharing is what you do best. And thanks to the 20 million of you who come here each month, we now have 500,000 recipes to show for it, more than anywhere else in the digital universe. We also have tons crazy-tempting photos, troves of recipe reviews and more than 2 million Facebook likes. That’s a heck of a lot of Food. Thank you!</div>
+                                    </div>
+                                </div>
+                                <div class="author_sign"><img src="img/letter/sign.jpg" alt="sign"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page_cards cards">
+                    <div class="cards_container _container">
+                        <div class="cards_items items-cards">
+                            <div class="items_cards-column">
+                                <div class="item_cards-chi chi card-back">
+                                    <h2 class="chi_title">Chi-Chi or Chichi</h2>
+                                    <div class="chi_body">
+                                        <div class="chi_author">
+                                            <div class="chi_foto"><img src="img/cards/chi/foto.jpg" alt="foto"></div>
+                                            <div class="chi_recipe"> 
+                                                 <div>Recipe by</div>
+                                                 <div>Smuckersreg Toppings</div>
+                                                <div class="recipes_info"><i class="far fa-clock"></i> 15mins | <i class="far fa-comment"></i> 12 <i class="far fa-eye"></i> 37</div>
+                                            </div>
+                                        </div>
+                                        <div class="chi_image"><img src="img/cards/chi/background.jpg" alt="chi"></div>
+                                    </div>
+                                </div>
+                                <div class="item_cards-target target card-back">
+                                    <div class="target_category category">
+                                        <h2 class="category_title">Target</h2>
+                                        <div class="category_icons">
+                                            <a href="#" class="fa fa-print"></a>
+                                            <a href="#" class="fa fa-envelope"></a>
+                                            <a href="#" class="fab fa-facebook-f"></a>
+                                            <a href="#" class="fab fa-pinterest"></a>
+                                        </div>
+                                        <div class="category_line"></div>
+                                    </div>
+                                    <div class="target_body body-target">
+                                        <h2 class="body-target_subtitle">Presentation line</h2>
+                                        <div class="body-target_count">
+                                            <div class="body-target_row">
+                                                <div class="body-target_percent">19%</div>
+                                                <div class="body-target_content">
+                                                    <h3 class="body-target_title">Housewives</h3>
+                                                    <div class="body-target_text">Lorem ipsum dolor sit amet, prima ceteros.</div>
+                                                </div>
+                                            </div>
+                                            <div class="body-target_row">
+                                                <div class="body-target_percent">65%</div>
+                                                <div class="body-target_content">
+                                                    <h3 class="body-target_title">Newlyweds</h3>
+                                                    <div class="body-target_text">Has brute elitr deserunt ea, assentior eloquentiam neglegentur te sed.</div>
+                                                </div>
+                                            </div>
+                                            <div class="body-target_row">
+                                                <div class="body-target_percent">50%</div>
+                                                <div class="body-target_content">
+                                                    <h3 class="body-target_title">Business lady</h3>
+                                                    <div class="body-target_text">Ei nam primis putent signiferumque.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items_cards-column">
+                                <div class="item_cards-recipe recipe card-back">
+                                    <div class="recipe_category category">
+                                        <h2 class="category_title">Recipe</h2>
+                                        <div class="category_icons">
+                                            <a href="#" class="fa fa-print"> </a>
+                                            <a href="#" class="fa fa-envelope"></a>
+                                            <a href="#" class="fab fa-facebook-f"></a>
+                                            <a href="#" class="fab fa-pinterest"></a>
+                                        </div>
+                                        <div class="category_line"></div>
+                                    </div>
+                                    <div class="recipe_body body-recipe">
+                                        <div class="body-recipe_difficult">
+                                            <a href="">EASY</a> 
+                                            <a href="">MIDDLE</a> 
+                                            <a href="">LONG</a>
+                                        </div>
+                                        <div class="body-recipe_count">
+                                            <div class="body-recipe_row">
+                                                <div class="body-recipe_image"><img src="img/cards/recipe/03.jpg" alt="01"></div>
+                                                <div class="body-recipe_content">
+                                                    <h3 class="body-recipe_title"> <i>by</i> Smuckersreg Toppings </h3>
+                                                    <div class="body-recipe_text">Thanks for the recipe
+                                                        lorem ipsum bla bla bla 
+                                                        Thanks for the recipe lore</div>
+                                                </div>
+                                            </div>
+                                            <div class="body-recipe_row">
+                                                <div class="body-recipe_image"><img src="img/cards/recipe/02.jpg" alt="02"></div>
+                                                <div class="body-recipe_content">
+                                                    <h3 class="body-recipe_title"><i>by</i> Smuckersreg Toppings</h3>
+                                                    <div class="body-recipe_text">Thanks for the recipe
+                                                        lorem nks for the recipe</div>
+                                                </div>
+                                            </div>
+                                            <div class="body-recipe_row">
+                                                <div class="body-recipe_image"><img src="img/cards/recipe/01.jpg" alt="03"></div>
+                                                <div class="body-recipe_content">
+                                                    <h3 class="body-recipe_title"><i>by</i> Smuckersreg Toppings</h3>
+                                                    <div class="body-recipe_text">Thanks for the recipe
+                                                        lorem nks for the recipe</div>
+                                                </div>
+                                            </div>
+                                            <div class="body-recipe_form">
+                                                <form action="#">
+                                                    <button class="body-recipe_button _button">view more</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item_cards-tags tags card-back">
+                                    <h2 class="tags_category category_title">Tags</h2>
+                                    <div class="category_line"></div>
+                                    <div class="tags_content">
+                                        <ul>
+                                            <li><a href="">#yummy</a></li>
+                                            <li><a href="">#sweet</a></li>
+                                            <li><a href="">#dinner</a></li>
+                                            <li><a href="">#lunch </a></li>
+                                            <li><a href="">#breakfast</a></li>
+                                            <li><a href="">#fresh</a></li>
+                                            <li><a href="">#tasty</a></li>
+                                            <li><a href="">#delish</a></li>
+                                            <li><a href="">#delicious</a></li>
+                                            <li><a href="">#eating</a></li>
+                                            <li><a href="">#food</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item_cards-calendar calendar card-back">
+                                    <h2 class="calendar_category category_title">Calendar</h2>
+                                    <div class="category_line"></div>
+                                    <div class="calendar_table">
+                                        <div class="calendar_month">
+                                            <div class="calendar_month-leftarr"><i class="fa fa-angle-left"></i></div>
+                                            <div class="calendar_month-month">June 2017</div>
+                                            <div class="calendar_month-rightarr"><i class="fa fa-angle-right"></i></div>
+                                        </div>
+                                        <div class="calendar_days calendar-list">
+                                            <table class="calendar-list_weeks">
+                                                <tr class="calendar-list_days"><td>Su</td> <td>Mo</td> <td>Tu</td> <td>We</td> <td>Th</td> <td>Fr</td> <td>Sa</td></tr>
+                                                <tr class="calendar-list_numbers"> <td>28</td>  <td>29</td>  <td> 30</td>   <td>31</td>    <td>1</td>    <td>2</td>   <td>3</td> </tr>
+                                                <tr class="calendar-list_numbers"><td>4</td>    <td>5 </td>   <td>6</td>   <td> 7</td>    <td>8</td>   <td> 9 </td>  <td>10</td></tr>
+                                                <tr class="calendar-list_numbers"><td>11</td>    <td>12</td>   <td>13</td>   <td> 14</td>    <td>15</td>   <td> 16 </td>  <td>17</td></tr>
+                                                <tr class="calendar-list_numbers"><td>18</td>    <td>19 </td>   <td>20</td>   <td>21</td>    <td>22</td>   <td> 23</td>  <td>24</td></tr>
+                                                <tr class="calendar-list_numbers"><td>25</td>    <td>26</td>   <td>27</td>   <td>28</td>    <td>29</td>   <td>30</td>  <td>1</td></tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items_cards-column">
+                                <div class="item_cards-popular popular card-back">
+                                    <div class="popular_background _ibg">
+                                        <img src="img/cards/popular/background.jpg" alt="popular">
+                                    </div>
+                                    <div class="popular_category category-popular">
+                                        <h2 class="category-popular_title">Popular Now</h2>
+                                        <div class="category_line-white"></div>
+                                        <h3 class="category-popular_subtitle">Vanilla Frozen Coffee</h3>
+                                        <div class="category-popular_text">Mix coffee, sugar and creamer. <br>
+                                            Pour into blender and add ice cubes. <br>
+                                            Blend until smooth.</div>
+                                    </div>
+                                    <div class="popular_under">
+                                        <div class="popular_get">
+                                            <form action="#">
+                                                <button class="popular_get-button _button">GET IT RECIPE</button>
+                                            </form> 
+                                        </div>
+                                        <div class="popular_info"><i class="far fa-clock"></i> 6mins | <i class="far fa-comment"></i> 240 <i class="far fa-eye"></i> 400</div>
+                                    </div>
+                                </div>
+                                <div class="item_cards-timeline timeline card-back">
+                                    <div class="timeline_category category">
+                                        <h2 class="category_title">Timeline</h2>
+                                        <div class="category_icons">
+                                            <a href="#" class="fa fa-print"> </a>
+                                            <a href="#" class="fa fa-envelope"></a>
+                                            <a href="#" class="fab fa-facebook-f"></a>
+                                            <a href="#" class="fab fa-pinterest"></a>
+                                        </div>
+                                        <div class="category_line"></div>
+                                    </div>
+                                    <div class="timeline_body body-timeline">
+                                        <h2 class="body-timeline_subtitle">Time line</h2>
+                                        <div class="body-timeline_count">
+                                            <div class="body-timeline_column">
+                                                <div class="body-timeline_difficult">EASY</div>
+                                                <div class="body-timeline_content">
+                                                    <div class="body-timeline_line-blue"></div>
+                                                    <div class="body-timeline_time">15mins</div>
+                                                </div>
+                                            </div>
+                                            <div class="body-timeline_column">
+                                                <div class="body-timeline_difficult">MEDIUM</div>
+                                                <div class="body-timeline_content">
+                                                    <div class="body-timeline_line-green"></div>
+                                                    <div class="body-timeline_time">25mins</div>
+                                                </div>
+                                            </div>
+                                            <div class="body-timeline_column">
+                                                <div class="body-timeline_difficult">LONG</div>
+                                                <div class="body-timeline_content">
+                                                    <div class="body-timeline_line-red"></div>
+                                                    <div class="body-timeline_time">40mins</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="body-timeline_under">
+                                            <div class="category_line-short"></div>
+                                            <div class="body-timeline_text">Eam adhuc iudico percipitur ex, 
+                                                    ut malis audire voluptaria has.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page_login login">
+                    <div class="login_container _container">
+                        <div class="login_log log-back">
+                            <div class="login_head">
+                                <h2 class="login_title">Login</h2>
+                                <div class="login_line category_line"></div>
+                            </div>
+                            <div class="login_text">Login for LEMON</div>
+                            <div class="login_mail">
+                                <form action="#" >
+                                    <input class="log-form" type="text" placeholder="email or login">
+                                </form>
+                            </div>
+                            <div class="login_pass">
+                                <form action="#">
+                                    <input class="log-form" type="password" placeholder="password">
+                                </form>
+                            </div>
+                            <div class="login_under">
+                                <div class="login_remember">
+                                    <form action="#">
+                                        <input type="checkbox">
+                                        Remember me
+                                    </form>
+                                </div>
+                                <div class="login_forgot"><a href="">Forgot your password?</a></div>
+                            </div>
+                            <div class="button">
+                                <form action="#">
+                                    <button class="_button">LOGIN</button>
+                                </form>
+                            </div>
+                            <div class="login_social">
+                                <a href="#" class="fab fa-facebook-f"></a>
+                                <a href="#" class="fab fa-google-plus-g"></a>
+                            </div>
+                            <div class="login_question">Don’t have an accont? Sign in</div>
+                        </div>
+                        <div class="login_sign log-back">
+                            <div class="login_head">
+                                <h2 class="login_title">Sign in</h2>
+                                <div class="login_line category_line"></div>
+                            </div>
+                            <div class="login_text">Sign in for LEMON</div>
+                            <div class="login_mail">
+                                <form action="#">
+                                    <input class="log-form" type="text" placeholder="email or login">
+                                </form>
+                            </div>
+                            <div class="login_username">
+                                <form action="#">
+                                    <input class="log-form" type="text" placeholder="user name">
+                                </form>
+                            </div>
+                            <div class="login_pass">
+                                <form action="#">
+                                    <input class="log-form" type="password" placeholder="password">
+                                </form>
+                            </div>
+                            <div class="login_repeat-pass">
+                                <form action="#">
+                                    <input class="log-form" type="password" placeholder="repeat password">
+                                </form>
+                            </div>
+                            <div class="button">
+                                <form action="#">
+                                    <button class="_button">SIGN UP</button>
+                                </form>
+                            </div>
+                            <div class="login_social">
+                                <a href="#" class="fab fa-facebook-f"></a>
+                                <a href="#" class="fab fa-google-plus-g"></a>
+                            </div>
+                            <div class="login_links">
+                                <div class="login_terms">
+                                    By joining LEMON, you agree to our <br>
+                                    <a href="">Terms of Service.</a>
+                                </div>
+                                <div class="login_link-log">
+                                    <a href="">Login</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page_comments comments">
+                    <div class="comments_container _container">
+                        <div class="comments_post">
+                            <div class="comments_post-block">
+                                <div class="comments_post-up">
+                                    <h2 class="comments_post-title">Post a Comment</h2>
+                                    <div class="comments_post-social"><a href="#">Facebook</a> | <a href="#">Twitter</a></div>
+                                </div>
+                                <div class="comments_message">
+                                    <div class="comments_message-foto">
+                                        <img src="img/comments/01.png" alt="foto">
+                                    </div>
+                                    <div class="comments_message-input">
+                                        <form action="#">
+                                            <input type="text" class="comments_input">
+                                        </form>
+                                    </div>
+                                    <div class="comments_message-button">
+                                        <form action="#">
+                                            <button class="post_button">POST</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comments_all all-comments">
+                            <h2 class="comments_post-title">Comments</h2>
+                            <div class="category_line all-comments_line"></div>
+                            <div class="all-comments_first">
+                                <div class="all-comments_first-comm">
+                                    <div class="comments_message-foto">
+                                        <img src="img/comments/01.png" alt="foto">
+                                    </div>
+                                    <div class="all-comments_message message">
+                                        <div class="message_who">post by</div>
+                                        <div class="message_what">Smuckersreg Toppings <a href="">reply</a></div>
+                                        <div class="message_date">6/10/2014</div>
+                                        <div class="message_comment">
+                                            <div class="message_comment-pictures">
+                                                <img src="img/comments/02.jpg" alt="">
+                                                <img class="pin" src="img/comments/pin.png" alt="pin">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span>Thanks for the recipe</span>
+                                        </div>
+                                    </div>
+                                    <div class="all-comments_likes">
+                                        <i>456</i><i class="fa fa-share-alt"></i>
+                                        <i>15</i><i class="far fa-thumbs-up"></i>
+                                    </div>
+                                </div>
+                                <div class="all-comments_sub-first">
+                                    <div class="category_line all-comments_line"></div>
+                                    <div class="sub-first_row">
+                                        <div class="comments_message-foto">
+                                            <img src="img/comments/01.png" alt="foto">
+                                        </div>
+                                        <div class="all-comments_message message">
+                                            <div class="message_who">post by</div>
+                                            <div class="message_what">Smuckersreg Toppings <a href="">reply</a></div>
+                                            <div class="message_date">6/10/2014</div>
+                                            <div class="message_comment-bold"><span>Thanks for the recipe lorem ipsum bla bla bla Thanks for the recipe lore</span></div>
+                                        </div>
+                                        <div class="all-comments_likes">
+                                            <i>456</i><i class="fa fa-share-alt"></i>
+                                            <i>15</i><i class="far fa-thumbs-up"></i>
+                                        </div>
+                                    </div>
+                                    <div class="all-comments_more"><a href="#">24 more comments</a></div>
+                                </div>
+                            </div>
+                            <div class="category_line all-comments_line"></div>
+                            <div class="all-comments_first">
+                                <div class="all-comments_first-comm">
+                                    <div class="comments_message-foto">
+                                        <img src="img/comments/01.png" alt="foto">
+                                    </div>
+                                    <div class="all-comments_message message-last">
+                                        <div class="message_who">post by</div>
+                                        <div class="message_what">Smuckersreg Toppings <a href="">reply</a></div>
+                                        <div class="message_date">6/10/2014</div>
+                                        <div class="message_comment">Thanks for the recipe</div>
+                                    </div>
+                                    <div class="all-comments_likes">
+                                        <i>456</i><i class="fa fa-share-alt"></i>
+                                        <i>15</i><i class="far fa-thumbs-up"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category_line all-comments_line"></div>
+                        </div>
+                        <div class="comments_pages">
+                            <ul class="comments_pages-list">
+                                <li class="comments_pages-elem"><a href=""><</a></li>
+                                <li class="comments_pages-elem"><a href="">1</a></li>
+                                <li class="comments_pages-elem"><a href="">2</a></li>
+                                <li class="comments_pages-elem"><a href="">3</a></li>
+                                <li class="comments_pages-elem"><a href="">4</a></li>
+                                <li class="comments_pages-elem"><a href="">5</a></li>
+                                <li class="comments_pages-elem"><a href="">6</a></li>
+                                <li class="comments_pages-elem"><a href="">></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer_container _container">
+                    
+                        <div class="footer_row">
+                            <img src="img/footer/footer-logo.png" alt="" class="footer_logo">
+                            <nav class="footer_menu menu">
+                                <ul class="menu_list footer_list">
+                                    <li class="menu_item footer_item"><a href="" class="menu_link-footer">HOME</a></li>
+                                    <li class="menu_item footer_item"><a href="" class="menu_link-footer">Recipes</a></li>
+                                    <li class="menu_item footer_item"><a href="" class="menu_link-footer">Photo Galleries</a></li>
+                                    <li class="menu_item footer_item"><a href="" class="menu_link-footer">Videos</a></li>
+                                    <li class="menu_item footer_item"><a href="" class="menu_link-footer">All Categories</a></li>
+                                </ul>
+                            </nav>
+                            <div class="footer_links">
+                                <div class="footer_copy"><i class="far fa-copyright"> 2016-2017 LEMON. All right reserved</i></div>
+                            </div>
+                        </div>
+                        <div class="footer_row-social">
+                            <div class="footer_social">
+                                <a href="#" class="fab fa-google-plus-g"> </a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="#" class="fab fa-facebook-f"></a>
+                                <a href="#" class="fab fa-pinterest"></a>
+                            </div>
+                        </div>
+                    
+                </div>
+            </footer>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
